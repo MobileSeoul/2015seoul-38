@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <ImageView
+        android:id="@+id/iv_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fixie"
+
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btn_click_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FIXIE"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/accent_material_light"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/btn_click_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정식 명칭은 Fixed Gear Bike. 이것을 줄여 Fixie나 Fixy로 부르는 것이다. 해외도 그렇고 국내에서도 Fixie 쪽이 많이 쓰인다.
+    이것을 직역해보면 고정 기어 자전거가 되는데 말 그대로 구동계가 고정되어 있고,페달과 바퀴가 항상 같이 돌아가는 구조다. 즉 바퀴가 굴러간다면 체인으로 연결된 크랭크와 페달도 강제로 돌아간다는 것이다.
+    그래서 내리막에서도 발을 쉬지 못하고 계속 돌려주어야 한다. 그 특유의 느낌과 스타일 때문에 젊은 층에서 큰 인기를 끌고 있으며 여성들도 많이 타고 있다.
+    "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/accent_material_light"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

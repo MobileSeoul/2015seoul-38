@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <ImageView
+        android:id="@+id/iv_three"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@drawable/mtb"
+
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M T B"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/accent_material_light"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/btn_click_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="산악에서 사용할 수 있도록 부품 및 장치, 프레임 등이 최적화된 자전거입니다. 일반 자전거의 프레임보다 내구도가 더 강합니다. 보통 알루미늄 프레임으로 되어 있으나 알루미늄 프레임보다 무게가 더 가볍고 고가인 카본, 티타늄 프레임도 있습니다. 체력 단련에 매우 효율적이고 모험심과 인내력을 키워주고 장애물 통과나 이를 극복하는 과정들에서 스릴을 만끽할 수 있습니다."
+                android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/accent_material_light"
+        android:layout_marginBottom="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerArray">
+        <item>[공원 선택]</item>
+        <item>난지 한강공원</item>
+        <item>뚝섬 한강공원</item>
+        <item>마포 한강공원</item>
+        <item>망원 한강공원</item>
+        <item>반포 한강공원</item>
+        <item>서울숲 공원</item>
+        <item>옥수 달맞이봉공원</item>
+        <item>양화 한강공원</item>
+        <item>이촌 한강공원</item>
+        <item>원효 한강공원</item>
+        <item>잠원 한강공원</item>
+        <item>잠실 한강공원</item>
+    </string-array>
+</resources>

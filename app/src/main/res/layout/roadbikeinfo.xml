@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <ImageView
+        android:id="@+id/iv_one"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@drawable/road"
+
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Road Bike"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/accent_material_light"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/btn_click_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="자전거의 스포츠카 또는 도로의 제왕으로 불리는 로드바이크는 말 그대로 도로에서 빠른 스피드를 즐길수 있게 만들어진 자전거입니다. 흔히 사이클로 알려진 로드바이크는 타이어의 폭이 좁아 지면과의 마찰을 최소화하고 스피드를 낼 때 공기저항을 최소화 할 수 있도록 핸들 손잡이가 안장 높이보다도 낮고, 핸들 바가 구부러지고, 프레임과 바퀴의 폭을 가늘게 하여 스피드를 즐기거나 장거리 주행에 유리합니다."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/accent_material_light"
+        android:layout_marginBottom="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

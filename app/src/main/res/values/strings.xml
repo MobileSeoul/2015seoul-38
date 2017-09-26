@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Good Day to Cycling</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">자전거</string>
+    <string name="title_activity_bike_view">BikeView</string>
+    <string name="title_activity_bike_course">BikeCourse</string>
+    <string name="title_activity_bike_time">BikeTime</string>
+    <string name="title_activity_bike_rent">BikeRent</string>
+</resources>
